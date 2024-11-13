@@ -157,7 +157,7 @@ jobs:
 
       - name: Create Release
         id: create_release
-        uses: qnblackcat/action-gh-release@master
+        uses: philippbla/action-gh-release@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           UYOU_VERSION: ${{ inputs.uyou_version }}
